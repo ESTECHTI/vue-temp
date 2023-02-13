@@ -1,8 +1,8 @@
 {
-	"Vue Component Template": {
-		"prefix": "vuetemp",
-		"body": [
-		  "<template>",
+  "Vue Component Template 2": {
+    "prefix": "vuetemp2",
+    "body": [
+      "<template>",
       " <div>",
       " ",
       " </div>",
@@ -16,7 +16,7 @@
       "   ",
       "  },",
       "  props: {",
-      "   ",      
+      "   ",
       "  },",
       "  data:() => {",
       "    return {",
@@ -30,17 +30,41 @@
       "   ",
       "  },",
       "  mounted() {",
-      "   ", 
+      "   ",
       " },",
-      " ",    
+      " ",
       "}",
       "</script>",
       " ",
       "<style lang=\"scss\" scoped>",
-       " ",   
+      " ",
       "</style>"
-		],
-    "description": "Vue Basic Template",
+    ],
+    "description": "Vue 2 Basic Template",
     "scope": "vue"
-	}
+  },
+   "Vue Component Template 3": {
+    "prefix": "vuetemp3",
+    "body": [
+      "<script setup>",
+      "import { reactive } from 'vue'",
+      " ",
+      "const state = reactive({ example: 'test' });",
+      " ",
+      "function changeExample() {",
+      "  state.example = 'new test';",
+      "}",
+      "</script>",
+      " ",
+      "<template>",
+      " <div>",
+      "  <button @click='changeExample'>",
+      "     {{ state.example }}",
+      "  </button>",
+      " </div>",
+      "</template>",
+    ],
+    "description": "Vue 3 Basic Template",
+    "scope": "vue"
+  },
 }

@@ -1,8 +1,9 @@
 {
   "name": "vue-temp",
+  "publisher": "Estech",
   "displayName": "vue-temp",
   "description": "vue template",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -12,7 +13,7 @@
   "contributes": {
     "snippets": [
       {
-        "language": "javascript",
+        "language": "vue",
         "path": "./snippets/snippets.code-snippets"
       }
     ]
