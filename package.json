@@ -3,7 +3,8 @@
   "publisher": "Estech",
   "displayName": "vue-temp",
   "description": "vue template",
-  "version": "0.0.6",
+  "version": "0.0.7",
+  "icon": "assets/icon.png",
   "engines": {
     "vscode": "^1.74.0"
   },
